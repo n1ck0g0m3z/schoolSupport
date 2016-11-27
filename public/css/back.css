@@ -1,0 +1,42 @@
+.border-hr{
+    border-color: #262f86;
+}
+
+/*.table,td,th,tr {
+    border: black solid !important;
+    border-collapse: none;
+}*/
+
+#gradient{
+    z-index: -1;
+    background: linear-gradient(160deg, #9df7f7, #337ab7);
+    /*background: linear-gradient(145deg, #304d7f, #2b6378, #236553, #2b6378, #2a426c, #2b6378, #236553);*/
+    /*background: linear-gradient(145deg, #172b4e, #3f6489, #38778e, #3b6b7d, #3f6489);*/
+    
+    height: 100%;
+    width: 100%;
+  	display: block;
+  	position: fixed;
+  	top: 0;
+    background-size: 100% 100%;
+    
+    /*-webkit-animation: AnimationName 50s ease infinite;
+    -moz-animation: AnimationName 50s ease infinite;
+    animation: AnimationName 50s ease infinite;*/
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
